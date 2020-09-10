@@ -16,3 +16,8 @@ Run dev:
 ```bash
 DRONE_HOST=https://yourhost.example.com DRONE_API_KEY=asdf yarn watch
 ```
+
+Set checking interval by (in seconds): 
+```bash
+DRONE_INTERVAL=3
+```
