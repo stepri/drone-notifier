@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "start": "tsc && node dist/index.js",
     "watch": "concurrently \"yarn watch-ts\" \"yarn watch-node\"",
     "watch-ts": "tsc -w",
